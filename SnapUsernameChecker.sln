@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapUsernameChecker", "SnapUsernameChecker\SnapUsernameChecker.csproj", "{0CDF0788-1B76-4DF3-B832-EA8C2A83F1F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapUsernameChecker.Browser", "SnapUsernameChecker.Browser\SnapUsernameChecker.Browser.csproj", "{B73E596B-89C7-469D-843A-7A132AEAD366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0CDF0788-1B76-4DF3-B832-EA8C2A83F1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDF0788-1B76-4DF3-B832-EA8C2A83F1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDF0788-1B76-4DF3-B832-EA8C2A83F1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73E596B-89C7-469D-843A-7A132AEAD366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E596B-89C7-469D-843A-7A132AEAD366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E596B-89C7-469D-843A-7A132AEAD366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E596B-89C7-469D-843A-7A132AEAD366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

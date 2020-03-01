@@ -1,14 +1,14 @@
 namespace SnapUsernameChecker
 {
-    public class SnapResult
+    public struct SnapResult
     {
         public string Username { get; }
-        public bool Exists { get; }
+        public int Result { get; }
 
-        public SnapResult(string username, bool exists)
+        public SnapResult(string username, int result)
         {
             Username = username;
-            Exists = exists;
+            Result = result;
         }
     }
 }
